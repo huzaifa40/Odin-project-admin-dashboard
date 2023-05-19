@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+  height: 100%;
+  position: relative;
+  color: white;
+  background: rgb(73, 182, 245);
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px;
+  margin: 10px 28px;
+}
+
+.logo-text h1 {
+  margin-left: 20px;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;  
+  margin: 10px 40px;
+}
+
+.icon-text p {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.list-items-bottom {
+  margin-top: 50px;
+}
+
+.main {
+  height: 100vh;
+  background: white;
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background: rgb(214, 214, 214);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0px 0px 60px;
+}
+
+.navbar h6 {
+  font-size: 17px;
+}
+
+.avatar-navbar {
+  margin: 0px 45px;
+}
+
+.form-input {
+  width: 450px;
+  height: 27px;
+  border-radius: 15px;
+  border: none;
+  margin: 0px 180px 0px 30px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  margin: 4px 210px 0px 70px;
+}
+
+.welcome-text {
+  font-size: 18px;
+  margin: 10px 0px 0px 20px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background: rgb(73, 182, 245);
+  border: none;
+  width: 110px;
+  height: 33px;
+  border-radius: 15px;
+  margin: 23px 15px 0px 12px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.projects {
+  margin: 20px 0px 0px 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.card {
+  background: whitesmoke;
+  border-left: 6px solid rgb(255, 208, 0);
+  border-radius: 6px;
+  width: 70%;
+  margin: 10px 0px 18px 0px;
+  padding: 21px 32px 17px 27px;
+}
+
+.card h6 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.icons {
+  margin: 17px 0px 0px 210px;
+}
+
+.announcement-trend{
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.announcements {
+  margin-top: 20px;
+}
+
+.announcement-card {
+  margin-top: 10px;
+}
+
+.announcement-card, .trend-card{
+  height: 80%;
+  width: 80%;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.ann-text{
+  padding: 10px 15px;
+}
+
+.ann-text h6, .trend-text h6{
+  font-size: 13px;
+}
+
+.ann-text p, .trend-text p{
+  font-size: 11px;
+  color: #737373;
+}
+
+.divider{
+  border: 0.5px solid #737373;
+  width: 80%;
+  margin-left: 15px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.trend-image-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 20px;
+  padding: 13px 0;
+}
+
+.trend-text{
+  margin-left: 20px;
+}
